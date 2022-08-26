@@ -1,0 +1,29 @@
+
+.paper {
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-headng {
+    color: #9F63FF;
+}
+
+.file-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // border: 2px solid red;
+    width: 95%;
+    padding: 1%;
+    margin: 10px 0;   
+}
+
+.submit-button {
+    border: 2px solid red;
+    margin-bottom: 10px;
+}

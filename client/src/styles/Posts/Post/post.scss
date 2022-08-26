@@ -1,0 +1,50 @@
+.media {
+    height: 0;
+    padding-top: 57%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 100%;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: rgba(255, 225, 0, 0.788);
+}
+
+.overlay2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: crimson;
+
+    >button {
+        color: rgba(241, 215, 12, 0.938);
+    }
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.title {
+    color: #9F63FF;
+    padding: 0 16px;
+}
+
+.card-actions {
+    padding: 0 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
